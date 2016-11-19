@@ -1,26 +1,96 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Tangerine_Bold.ttf">
+            <string>Tangerine-Bold</string>
+        </array>
+        <array key="Tangerine_Regular.ttf">
+            <string>Tangerine</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="The_Conquering" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="a59-wQ-hnD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rv2-h4-dfS">
+                                <rect key="frame" x="64" y="242" width="247" height="81"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Tangerine" family="Tangerine" pointSize="55"/>
+                                <state key="normal" title="Return to battle">
+                                    <color key="titleColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTh-Ub-0MU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uoh-vY-BRg">
+                                <rect key="frame" x="57" y="352" width="261" height="66"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Tangerine" family="Tangerine" pointSize="55"/>
+                                <state key="normal" title="Enlist">
+                                    <color key="titleColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="register:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jvm-Yp-X53"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFe-pA-aiU">
+                                <rect key="frame" x="319" y="607" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Vuo-TX-7tX"/>
+                                    <constraint firstAttribute="height" constant="40" id="rex-pJ-ezF"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="settings"/>
+                                <connections>
+                                    <action selector="settings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DtT-2l-ed4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The Conquering" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wja-dc-gQ8">
+                                <rect key="frame" x="33" y="62" width="309" height="88"/>
+                                <fontDescription key="fontDescription" name="Tangerine-Bold" family="Tangerine" pointSize="65"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wja-dc-gQ8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="42" id="6yi-XW-dgb"/>
+                            <constraint firstItem="Rv2-h4-dfS" firstAttribute="top" secondItem="Wja-dc-gQ8" secondAttribute="bottom" constant="132" id="9dX-Gm-EZ4"/>
+                            <constraint firstItem="Wja-dc-gQ8" firstAttribute="centerX" secondItem="a59-wQ-hnD" secondAttribute="centerX" id="KJm-Fx-tOG"/>
+                            <constraint firstItem="yFe-pA-aiU" firstAttribute="trailing" secondItem="a59-wQ-hnD" secondAttribute="trailingMargin" id="MRP-IN-Y6D"/>
+                            <constraint firstItem="Rv2-h4-dfS" firstAttribute="centerX" secondItem="a59-wQ-hnD" secondAttribute="centerX" id="Nuo-qZ-P3M"/>
+                            <constraint firstItem="Uoh-vY-BRg" firstAttribute="centerX" secondItem="a59-wQ-hnD" secondAttribute="centerX" id="Trg-3M-89Q"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yFe-pA-aiU" secondAttribute="bottom" constant="20" id="VhZ-5o-WDH"/>
+                            <constraint firstItem="Uoh-vY-BRg" firstAttribute="top" secondItem="Rv2-h4-dfS" secondAttribute="bottom" constant="29" id="hi3-UC-LNy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wja-dc-gQ8" secondAttribute="trailing" constant="17" id="rHc-f4-Icq"/>
+                            <constraint firstItem="Wja-dc-gQ8" firstAttribute="leading" secondItem="a59-wQ-hnD" secondAttribute="leadingMargin" constant="17" id="ymJ-Oz-9CI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="settings" width="256" height="256"/>
+    </resources>
 </document>

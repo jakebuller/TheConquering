@@ -13,6 +13,8 @@
 		42386EED1DE0CE4B00048E28 /* The_Conquering.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42386EEB1DE0CE4B00048E28 /* The_Conquering.xcdatamodeld */; };
 		42386EEF1DE0CE4B00048E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42386EEE1DE0CE4B00048E28 /* Assets.xcassets */; };
 		42386EF21DE0CE4B00048E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42386EF01DE0CE4B00048E28 /* LaunchScreen.storyboard */; };
+		42386EFD1DE0D51C00048E28 /* Tangerine_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42386EFB1DE0D51C00048E28 /* Tangerine_Bold.ttf */; };
+		42386EFE1DE0D51C00048E28 /* Tangerine_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42386EFC1DE0D51C00048E28 /* Tangerine_Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		42386EEE1DE0CE4B00048E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42386EF11DE0CE4B00048E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42386EF31DE0CE4B00048E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42386EFB1DE0D51C00048E28 /* Tangerine_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tangerine_Bold.ttf; sourceTree = "<group>"; };
+		42386EFC1DE0D51C00048E28 /* Tangerine_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tangerine_Regular.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				42386EF01DE0CE4B00048E28 /* LaunchScreen.storyboard */,
 				42386EF31DE0CE4B00048E28 /* Info.plist */,
 				42386EEB1DE0CE4B00048E28 /* The_Conquering.xcdatamodeld */,
+				42386EFB1DE0D51C00048E28 /* Tangerine_Bold.ttf */,
+				42386EFC1DE0D51C00048E28 /* Tangerine_Regular.ttf */,
 			);
 			path = "The Conquering";
 			sourceTree = "<group>";
@@ -127,9 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42386EFE1DE0D51C00048E28 /* Tangerine_Regular.ttf in Resources */,
 				42386EF21DE0CE4B00048E28 /* LaunchScreen.storyboard in Resources */,
 				42386EEF1DE0CE4B00048E28 /* Assets.xcassets in Resources */,
 				42386EEA1DE0CE4B00048E28 /* Main.storyboard in Resources */,
+				42386EFD1DE0D51C00048E28 /* Tangerine_Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
