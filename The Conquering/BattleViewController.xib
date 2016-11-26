@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Tangerine_Bold.ttf">
+            <string>Tangerine-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BattleViewController" customModule="The_Conquering" customModuleProvider="target">
+            <connections>
+                <outlet property="diceImage" destination="siB-Ps-P4B" id="NzH-3u-cKi"/>
+                <outlet property="rollButton" destination="hwd-ab-FzL" id="omN-92-UUJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tank" translatesAutoresizingMaskIntoConstraints="NO" id="qmX-Wb-NGp">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwd-ab-FzL">
+                    <rect key="frame" x="62" y="535" width="250" height="82"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="PzZ-bm-dWV"/>
+                        <constraint firstAttribute="height" constant="82" id="paB-h7-TPj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Tangerine-Bold" family="Tangerine" pointSize="60"/>
+                    <state key="normal" title="Roll">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="rollClicked:" destination="-1" eventType="touchUpInside" id="Arp-g9-S3T"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice-random" translatesAutoresizingMaskIntoConstraints="NO" id="siB-Ps-P4B">
+                    <rect key="frame" x="112" y="236" width="150" height="150"/>
+                    <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="0.57248846476510062" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="siB-Ps-P4B" secondAttribute="height" multiplier="1:1" id="KE2-It-0kK"/>
+                        <constraint firstAttribute="width" constant="150" id="obq-td-Ju1"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hwd-ab-FzL" firstAttribute="top" secondItem="siB-Ps-P4B" secondAttribute="bottom" constant="149" id="9z7-L4-uiV"/>
+                <constraint firstAttribute="bottom" secondItem="hwd-ab-FzL" secondAttribute="bottom" constant="50" id="Aoc-0I-nE2"/>
+                <constraint firstItem="siB-Ps-P4B" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EoR-2y-MXl"/>
+                <constraint firstAttribute="bottom" secondItem="qmX-Wb-NGp" secondAttribute="bottom" id="RME-M4-I1n"/>
+                <constraint firstAttribute="trailing" secondItem="qmX-Wb-NGp" secondAttribute="trailing" id="SjC-cK-TRr"/>
+                <constraint firstItem="qmX-Wb-NGp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jvV-Sf-fZG"/>
+                <constraint firstItem="qmX-Wb-NGp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rWW-OG-tHg"/>
+                <constraint firstItem="hwd-ab-FzL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xFK-po-MaU"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dice-random" width="512" height="512"/>
+        <image name="tank" width="750" height="1334"/>
+    </resources>
+</document>

@@ -1,14 +1,14 @@
 //
-//  SignInViewController.swift
+//  UtilitesViewController.swift
 //  The Conquering
 //
-//  Created by Jake Buller on 2016-11-19.
+//  Created by Jake Buller on 2016-11-26.
 //  Copyright © 2016 Jake Buller. All rights reserved.
 //
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class UtilitesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +21,11 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func click(_ sender: Any) {
-        NSLog("test")
-    }
 
+    @IBAction func BattleClicked(_ sender: Any) {
+        let vc = BattleViewController() //change this to your class name
+        self.present(vc, animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
