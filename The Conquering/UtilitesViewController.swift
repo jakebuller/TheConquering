@@ -35,5 +35,10 @@ class UtilitesViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func MapClicked(_ sender: Any) {
+        
+        let vc = MapViewController() //change this to your class name
+        self.present(vc, animated: true, completion: nil)
+    }
 
 }

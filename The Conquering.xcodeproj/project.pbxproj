@@ -19,6 +19,8 @@
 		42B12B2E1DEA29D70068DB8E /* UtilitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B12B2D1DEA29D70068DB8E /* UtilitesViewController.swift */; };
 		42B12B311DEA2A790068DB8E /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B12B2F1DEA2A790068DB8E /* BattleViewController.swift */; };
 		42B12B321DEA2A790068DB8E /* BattleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B12B301DEA2A790068DB8E /* BattleViewController.xib */; };
+		628DFEFE1DEA36C300E7F4AB /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 628DFEFD1DEA36C300E7F4AB /* MapViewController.xib */; };
+		628DFF001DEA37D600E7F4AB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628DFEFF1DEA37D600E7F4AB /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		42B12B2D1DEA29D70068DB8E /* UtilitesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilitesViewController.swift; sourceTree = "<group>"; };
 		42B12B2F1DEA2A790068DB8E /* BattleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
 		42B12B301DEA2A790068DB8E /* BattleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BattleViewController.xib; sourceTree = "<group>"; };
+		628DFEFD1DEA36C300E7F4AB /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		628DFEFF1DEA37D600E7F4AB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				42B12B2D1DEA29D70068DB8E /* UtilitesViewController.swift */,
 				42B12B2F1DEA2A790068DB8E /* BattleViewController.swift */,
 				42B12B301DEA2A790068DB8E /* BattleViewController.xib */,
+				628DFEFF1DEA37D600E7F4AB /* MapViewController.swift */,
+				628DFEFD1DEA36C300E7F4AB /* MapViewController.xib */,
 			);
 			path = "The Conquering";
 			sourceTree = "<group>";
@@ -117,7 +123,6 @@
 				TargetAttributes = {
 					42386EE01DE0CE4B00048E28 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 44L9F5ZGNX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,6 +155,7 @@
 				42386EF21DE0CE4B00048E28 /* LaunchScreen.storyboard in Resources */,
 				42386EEF1DE0CE4B00048E28 /* Assets.xcassets in Resources */,
 				42386EEA1DE0CE4B00048E28 /* Main.storyboard in Resources */,
+				628DFEFE1DEA36C300E7F4AB /* MapViewController.xib in Resources */,
 				42386EFD1DE0D51C00048E28 /* Tangerine_Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +173,7 @@
 				42386EE71DE0CE4B00048E28 /* ViewController.swift in Sources */,
 				42386EE51DE0CE4B00048E28 /* AppDelegate.swift in Sources */,
 				42386EED1DE0CE4B00048E28 /* The_Conquering.xcdatamodeld in Sources */,
+				628DFF001DEA37D600E7F4AB /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44L9F5ZGNX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "The Conquering/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakebuller.The-Conquering";
@@ -302,7 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44L9F5ZGNX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "The Conquering/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.jakebuller.The-Conquering";
