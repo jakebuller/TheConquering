@@ -16,6 +16,7 @@
 		42386EFD1DE0D51C00048E28 /* Tangerine_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42386EFB1DE0D51C00048E28 /* Tangerine_Bold.ttf */; };
 		42386EFE1DE0D51C00048E28 /* Tangerine_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42386EFC1DE0D51C00048E28 /* Tangerine_Regular.ttf */; };
 		42386F021DE0DE4B00048E28 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42386F011DE0DE4B00048E28 /* SignInViewController.swift */; };
+		423FE2A91DEA6ED500A35618 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423FE2A81DEA6ED500A35618 /* DiceView.swift */; };
 		42B12B2E1DEA29D70068DB8E /* UtilitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B12B2D1DEA29D70068DB8E /* UtilitesViewController.swift */; };
 		42B12B311DEA2A790068DB8E /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B12B2F1DEA2A790068DB8E /* BattleViewController.swift */; };
 		42B12B321DEA2A790068DB8E /* BattleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B12B301DEA2A790068DB8E /* BattleViewController.xib */; };
@@ -33,6 +34,7 @@
 		42386EFB1DE0D51C00048E28 /* Tangerine_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tangerine_Bold.ttf; sourceTree = "<group>"; };
 		42386EFC1DE0D51C00048E28 /* Tangerine_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tangerine_Regular.ttf; sourceTree = "<group>"; };
 		42386F011DE0DE4B00048E28 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		423FE2A81DEA6ED500A35618 /* DiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		42B12B2D1DEA29D70068DB8E /* UtilitesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilitesViewController.swift; sourceTree = "<group>"; };
 		42B12B2F1DEA2A790068DB8E /* BattleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
 		42B12B301DEA2A790068DB8E /* BattleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BattleViewController.xib; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				42B12B2D1DEA29D70068DB8E /* UtilitesViewController.swift */,
 				42B12B2F1DEA2A790068DB8E /* BattleViewController.swift */,
 				42B12B301DEA2A790068DB8E /* BattleViewController.xib */,
+				423FE2A81DEA6ED500A35618 /* DiceView.swift */,
 			);
 			path = "The Conquering";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				42B12B2E1DEA29D70068DB8E /* UtilitesViewController.swift in Sources */,
 				42386EE71DE0CE4B00048E28 /* ViewController.swift in Sources */,
 				42386EE51DE0CE4B00048E28 /* AppDelegate.swift in Sources */,
+				423FE2A91DEA6ED500A35618 /* DiceView.swift in Sources */,
 				42386EED1DE0CE4B00048E28 /* The_Conquering.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
